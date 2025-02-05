@@ -6,7 +6,7 @@ echo "================================================================="
 echo "COMPILANDO APLICACION..."
 echo "================================================================="
 
-gcc -Wall -g -std=c99 -o bin/app \
+gcc -Wall -g -std=c2x -o bin/app \
     main.c matrix.h matrix.c
 
 cd bin/
